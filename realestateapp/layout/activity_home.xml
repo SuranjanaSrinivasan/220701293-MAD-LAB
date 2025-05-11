@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#121212"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/addHouseButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADD NEW HOUSE"
+        android:backgroundTint="#7C4DFF"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/rounded_button" />
+
+    <Button
+        android:id="@+id/viewMyBookingsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="VIEW MY BOOKINGS"
+        android:backgroundTint="#7C4DFF"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/rounded_button" />
+
+    <Button
+        android:id="@+id/viewWishlistButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="VIEW WISHLIST ❤️"
+        android:backgroundTint="#7C4DFF"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/rounded_button" />
+
+    <SearchView
+        android:id="@+id/searchView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:queryHint="Search by Address..."
+        android:background="@drawable/searchview_background"
+        android:iconifiedByDefault="false"
+        android:layout_marginBottom="16dp"/>
+
+    <ListView
+        android:id="@+id/houseListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
